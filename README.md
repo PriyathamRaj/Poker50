@@ -21,7 +21,8 @@ Deck: Manages a standard 52-card set. It includes methods for shuffling, dealing
 HandAnalyzer: Evaluates 7 cards (2 hole cards + 5 community cards) to find the best 5-card combination. It uses frequency maps for pairs and sliding windows for sequences.
 HandRanker: Converts the analyzer's findings into a numerical Rank Tuple for easy comparison between players.
 
-##### B. Main Function Flow The main function coordinates the user experience through four primary steps:
+##### B. Main Function Flow
+The main function coordinates the user experience through four primary steps:
 1. Get Player Hand: The user decides whether to define their starting cards or receive random ones from the deck.
 2. Get Opponents Hand: You can set the number of opponents (up to 22) and choose how many of their hands you want to manually define.
 3. Get Simulation Count: The user chooses how many trials to run. The program is currently capped at 1,000 simulations to balance speed and accuracy.
