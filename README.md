@@ -32,14 +32,23 @@ The main function coordinates the user experience through four primary steps:
 #### Hand Strength Logic:
 The engine recognizes all ten standard poker hand ranks. To break ties, it uses lexicographical comparison of rank tuplesâcomparing the rank of the pattern first, then the primary winning card values, then the kickers (remaining high cards).
 
-Rank	Hand Type	    Description
-10	    Royal Flush     A, K, Q, J, T of the same suit.
-9	    Straight Flush	Five cards in a row of the same suit.
-8	    Four of a Kind	Four cards of the same rank.
-7	    Full House	    Three of a kind plus a pair.
-6	    Flush	        Any five cards of the same suit.
-5	    Straight	    Five cards in a numerical sequence.
-4	    Three of a Kind	Three cards of the same rank.
-3	    Two Pairs	    Two different pairs in one hand.
-2	    One Pair	    Two cards of the same rank.
-1	    High Card	    The highest single card held.
+10: Royal Flush (A, K, Q, J, T of the same suit)
+
+9: Straight Flush (Five cards in a row of the same suit)
+
+8: Four of a Kind	(Four cards of the same rank)
+
+7: Full House (Three of a kind plus a pair)
+
+6: Flush (Any five cards of the same suit)
+
+5: Straight (Five cards in a numerical sequence)
+
+4: Three of a Kind (Three cards of the same rank)
+
+3: Two Pairs (Two different pairs in one hand)
+
+2: One Pair (Two cards of the same rank)
+
+1: High Card (The highest single card held)
+
