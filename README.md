@@ -30,7 +30,7 @@ The main function coordinates the user experience through four primary steps:
 
 
 #### Hand Strength Logic:
-The engine recognizes all ten standard poker hand ranks. To break ties, it uses lexicographical comparison of rank tuples,comparing the rank of the pattern first, then the primary winning card values, then the kickers (remaining high cards).
+The engine recognizes all ten standard poker hand ranks. To break ties, it uses lexicographical comparison of rank tuples comparing the rank of the pattern first, then the primary winning card values, then the kickers (remaining high cards).
 
 10: Royal Flush (A, K, Q, J, T of the same suit)
 
