@@ -1,4 +1,8 @@
 # Poker50
+
+## Project Walkthrough Video:
+https://youtu.be/r9VrhAzaug0?si=1MH0FU_CbxJTLe2h
+
 #### Project Overview:
 "Poker50 - The Monte Carlo TexasHoldem Poker Engine" is a Texas Hold'em simulation tool built for my CS50P final project. The main goal is to simulate poker hands for one or more players to study the randomness of hand ranks without the distraction of betting. I started this project to practice Object-Oriented Programming (OOP) and to build a foundation for a future poker bot. By running simulations and studying the results, the program can help strengthen "poker intuition" with hard data. This project was developed in late 2025 as a way to combine my interest in game theory with the Python skills I gained throughout the course.
 
