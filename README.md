@@ -1,6 +1,6 @@
 # Poker50
 
-## Project Walkthrough Video:
+#### Project Walkthrough Video:
 https://youtu.be/r9VrhAzaug0?si=1MH0FU_CbxJTLe2h
 
 #### Project Overview:
