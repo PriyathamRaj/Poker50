@@ -21,11 +21,15 @@ The project is organized into modular classes and functions to ensure the code i
 
 ##### Classes:
 1. Building Blocks:
+
 Card: Represents a single card with rank and suit validation. It uses properties and setters to ensure no "impossible" cards enter the deck.
+
 Deck: Manages a standard 52-card set. It includes methods for shuffling, dealing with "pop," and dealing without removing cards for simulation purposes.
 
-2. Pattern Matching:
+3. Pattern Matching:
+
 HandAnalyzer: Evaluates 7 cards (2 hole cards + 5 community cards) to find the best 5-card combination. It uses frequency maps for pairs and sliding windows for sequences.
+
 HandRanker: Converts the analyzer's findings into a numerical Rank Tuple for easy comparison between players.
 
 ##### B. Main Function Flow
