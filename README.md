@@ -9,8 +9,11 @@ https://youtu.be/r9VrhAzaug0?si=1MH0FU_CbxJTLe2h
 #### Project Outline
 
 Summary: Simulating poker hands to study rank randomness and probability.
+
 Flexibility: You can play solo to check hand frequencies or against multiple opponents to see win rates.
+
 Customization: You can define specific cards for any player to test "what-if" scenarios or let them be assigned randomly.
+
 Simulation: Community cards are dealt randomly for each trial to calculate win probabilities based on the remaining deck.
 
 #### Code Structure
